@@ -37,6 +37,7 @@ module.exports = {
         blog: {
           showReadingTime: true,
           // editUrl: 'https://github.com/coMakeIT-TIC/coMakeIT-TIC.github.io/edit/main/blog/',
+          blogTitle: 'My Blog Title', // Set the title for your blog
         },
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
@@ -44,6 +45,7 @@ module.exports = {
       },
     ],
   ],
+  
 
   themeConfig: {
     navbar: {

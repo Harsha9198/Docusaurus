@@ -28,3 +28,42 @@
   --ifm-color-primary-lightest: #4fddbf;
   --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.3);
 }
+
+/* Add custom styles for the blog cards */
+.blog-layout {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+}
+
+.blog-card {
+  width: calc(33.33% - 20px); /* Adjust the width as needed */
+  margin-bottom: 20px;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.blog-card h2 {
+  margin-bottom: 10px;
+}
+
+.blog-card p {
+  margin-bottom: 0;
+}
+
+.blog-card-link {
+  display: block;
+  text-decoration: none;
+  color: #333;
+  transition: background-color 0.2s ease;
+}
+
+.blog-card-link:hover {
+  background-color: #f8f8f8;
+}
+
+
+
+
+
