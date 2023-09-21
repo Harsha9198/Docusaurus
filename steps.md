@@ -1,4 +1,4 @@
-Certainly, creating your own Yeoman generator to template Docusaurus documentation files is a great idea! Yeoman generators provide a structured and efficient way to scaffold projects and generate files based on templates. I'll guide you through the process step by step:
+creating your own Yeoman generator to template Docusaurus documentation files is a great idea! Yeoman generators provide a structured and efficient way to scaffold projects and generate files based on templates. I'll guide you through the process step by step:
 
 1. **Setup:** Make sure you have Node.js and npm installed on your machine. You can install Yeoman globally using the following command:
 
