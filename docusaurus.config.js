@@ -8,6 +8,9 @@ module.exports = {
   favicon: 'img/logo.png',
   organizationName: 'coMakeIT-TIC',
   projectName: 'coMakeIT-TIC.github.io',
+  customFields:{
+    mendableAnonKey: "18ccf72f-1554-4a69-9877-e59b91a1d6f1",
+ },
 
   themes: [
     // ... Your other themes.
@@ -48,6 +51,7 @@ module.exports = {
   
 
   themeConfig: {
+    
     navbar: {
       title: 'TIC@CoMakeIT',
       logo: {
